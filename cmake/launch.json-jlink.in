@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug-@TARGET_NAME@",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "jlink",
+            "device": "@MCU_CHIP@",
+            "cwd": "${workspaceRoot}",
+            "executable": "@CMAKE_BINARY_DIR@/src/@TARGET_NAME@",
+            "interface": "swd",
+            "runToMain": true,
+            "svdFile": "@DEVICE_SVD@"
+        }
+    ]
+}

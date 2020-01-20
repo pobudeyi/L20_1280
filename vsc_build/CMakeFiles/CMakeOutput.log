@@ -1,0 +1,687 @@
+The target system is: Generic -  - ARM
+The host system is: Windows - 10.0.17763 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/3.14.0/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/3.14.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_2d9fc/fast 
+D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_2d9fc.dir\build.make CMakeFiles/cmTC_2d9fc.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d9fc.dir/testCCompiler.c.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe    -o CMakeFiles\cmTC_2d9fc.dir\testCCompiler.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C static library libcmTC_2d9fc.a
+"C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_2d9fc.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2d9fc.dir\link.txt --verbose=1
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_2d9fc.a  CMakeFiles/cmTC_2d9fc.dir/testCCompiler.c.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_2d9fc.a
+mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_0dcf2/fast 
+D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_0dcf2.dir\build.make CMakeFiles/cmTC_0dcf2.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0dcf2.dir/CMakeCCompilerABI.c.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_0dcf2.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\CMake1\share\cmake-3.14\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe
+Target: arm-none-eabi
+Configured with: /tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw --libexecdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/lib --infodir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/arm-none-eabi --with-libiconv-prefix=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-gmp=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2017-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0dcf2.dir\CMakeCCompilerABI.c.obj' '-c'
+ d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/cc1.exe -quiet -v -iprefix d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/ -isysroot d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake1\share\cmake-3.14\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles\cmTC_0dcf2.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\ADMINI~1\AppData\Local\Temp\ccXxysNn.s
+GNU C11 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/include"
+ignoring nonexistent directory "d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../arm-none-eabi/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/lib/gcc/arm-none-eabi/7.2.1/../../../../include"
+ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/include-fixed"
+ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/include
+ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/include-fixed
+ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C11 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 28631974f2bbecf789f54e89b226946b
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0dcf2.dir\CMakeCCompilerABI.c.obj' '-c'
+ d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as.exe -v -meabi=5 -o CMakeFiles\cmTC_0dcf2.dir\CMakeCCompilerABI.c.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccXxysNn.s
+GNU assembler version 2.29.51 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 2.29.51.20171128
+COMPILER_PATH=d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0dcf2.dir\CMakeCCompilerABI.c.obj' '-c'
+Linking C static library libcmTC_0dcf2.a
+"C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_0dcf2.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0dcf2.dir\link.txt --verbose=1
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_0dcf2.a  CMakeFiles/cmTC_0dcf2.dir/CMakeCCompilerABI.c.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_0dcf2.a
+mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/include]
+    add: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/include-fixed]
+    add: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  implicit include dirs: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/include;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/include-fixed;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_0dcf2/fast ]
+  ignore line: [D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_0dcf2.dir\build.make CMakeFiles/cmTC_0dcf2.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0dcf2.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_0dcf2.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\CMake1\share\cmake-3.14\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw --libexecdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/lib --infodir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/arm-none-eabi --with-libiconv-prefix=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-gmp=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2017-q4-major' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (GNU Tools for Arm Embedded Processors 7-2017-q4-major) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0dcf2.dir\CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/cc1.exe -quiet -v -iprefix d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/ -isysroot d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake1\share\cmake-3.14\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles\cmTC_0dcf2.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\ADMINI~1\AppData\Local\Temp\ccXxysNn.s]
+  ignore line: [GNU C11 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/include"]
+  ignore line: [ignoring nonexistent directory "d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../arm-none-eabi/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/lib/gcc/arm-none-eabi/7.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/include]
+  ignore line: [ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/include-fixed]
+  ignore line: [ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 28631974f2bbecf789f54e89b226946b]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0dcf2.dir\CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as.exe -v -meabi=5 -o CMakeFiles\cmTC_0dcf2.dir\CMakeCCompilerABI.c.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccXxysNn.s]
+  ignore line: [GNU assembler version 2.29.51 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 2.29.51.20171128]
+  ignore line: [COMPILER_PATH=d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/]
+  ignore line: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/]
+  ignore line: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/]
+  ignore line: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/]
+  ignore line: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0dcf2.dir\CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [Linking C static library libcmTC_0dcf2.a]
+  ignore line: ["C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_0dcf2.dir\cmake_clean_target.cmake]
+  ignore line: ["C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0dcf2.dir\link.txt --verbose=1]
+  ignore line: [D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_0dcf2.a  CMakeFiles/cmTC_0dcf2.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_0dcf2.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_bb8ac/fast 
+D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_bb8ac.dir\build.make CMakeFiles/cmTC_bb8ac.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb8ac.dir/feature_tests.c.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe   -std=c11 -o CMakeFiles\cmTC_bb8ac.dir\feature_tests.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles\feature_tests.c
+Linking C static library libcmTC_bb8ac.a
+"C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_bb8ac.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bb8ac.dir\link.txt --verbose=1
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_bb8ac.a  CMakeFiles/cmTC_bb8ac.dir/feature_tests.c.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_bb8ac.a
+mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_433d6/fast 
+D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_433d6.dir\build.make CMakeFiles/cmTC_433d6.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_433d6.dir/feature_tests.c.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe   -std=c99 -o CMakeFiles\cmTC_433d6.dir\feature_tests.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles\feature_tests.c
+Linking C static library libcmTC_433d6.a
+"C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_433d6.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_433d6.dir\link.txt --verbose=1
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_433d6.a  CMakeFiles/cmTC_433d6.dir/feature_tests.c.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_433d6.a
+mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_519a5/fast 
+D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_519a5.dir\build.make CMakeFiles/cmTC_519a5.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_519a5.dir/feature_tests.c.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe   -std=c90 -o CMakeFiles\cmTC_519a5.dir\feature_tests.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles\feature_tests.c
+Linking C static library libcmTC_519a5.a
+"C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_519a5.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_519a5.dir\link.txt --verbose=1
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_519a5.a  CMakeFiles/cmTC_519a5.dir/feature_tests.c.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_519a5.a
+mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_f1ad9/fast 
+D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_f1ad9.dir\build.make CMakeFiles/cmTC_f1ad9.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1ad9.dir/testCXXCompiler.cxx.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-g++.exe     -o CMakeFiles\cmTC_f1ad9.dir\testCXXCompiler.cxx.obj -c E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX static library libcmTC_f1ad9.a
+"C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_f1ad9.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f1ad9.dir\link.txt --verbose=1
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_f1ad9.a  CMakeFiles/cmTC_f1ad9.dir/testCXXCompiler.cxx.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_f1ad9.a
+mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_9236b/fast 
+D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_9236b.dir\build.make CMakeFiles/cmTC_9236b.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9236b.dir/CMakeCXXCompilerABI.cpp.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-g++.exe    -v -o CMakeFiles\cmTC_9236b.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake1\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-g++.exe
+Target: arm-none-eabi
+Configured with: /tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw --libexecdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/lib --infodir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/arm-none-eabi --with-libiconv-prefix=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-gmp=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2017-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9236b.dir\CMakeCXXCompilerABI.cpp.obj' '-c'
+ d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/cc1plus.exe -quiet -v -iprefix d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/ -isysroot d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake1\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles\cmTC_9236b.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\ADMINI~1\AppData\Local\Temp\ccBzRNpx.s
+GNU C++14 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"
+ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"
+ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"
+ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/include"
+ignoring nonexistent directory "d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../arm-none-eabi/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/lib/gcc/arm-none-eabi/7.2.1/../../../../include"
+ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/include-fixed"
+ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1
+ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi
+ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward
+ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/include
+ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/include-fixed
+ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++14 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4a8086f83512c6a6997de2bdaa8b3556
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9236b.dir\CMakeCXXCompilerABI.cpp.obj' '-c'
+ d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as.exe -v -meabi=5 -o CMakeFiles\cmTC_9236b.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccBzRNpx.s
+GNU assembler version 2.29.51 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 2.29.51.20171128
+COMPILER_PATH=d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9236b.dir\CMakeCXXCompilerABI.cpp.obj' '-c'
+Linking CXX static library libcmTC_9236b.a
+"C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_9236b.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9236b.dir\link.txt --verbose=1
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_9236b.a  CMakeFiles/cmTC_9236b.dir/CMakeCXXCompilerABI.cpp.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_9236b.a
+mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1]
+    add: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi]
+    add: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward]
+    add: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/include]
+    add: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/include-fixed]
+    add: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  implicit include dirs: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/include;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/include-fixed;d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_9236b/fast ]
+  ignore line: [D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_9236b.dir\build.make CMakeFiles/cmTC_9236b.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9236b.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-g++.exe    -v -o CMakeFiles\cmTC_9236b.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake1\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-g++.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw --libexecdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/lib --infodir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/arm-none-eabi --with-libiconv-prefix=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-gmp=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2017-q4-major' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (GNU Tools for Arm Embedded Processors 7-2017-q4-major) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9236b.dir\CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/cc1plus.exe -quiet -v -iprefix d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/ -isysroot d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake1\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles\cmTC_9236b.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\ADMINI~1\AppData\Local\Temp\ccBzRNpx.s]
+  ignore line: [GNU C++14 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"]
+  ignore line: [ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"]
+  ignore line: [ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/include"]
+  ignore line: [ignoring nonexistent directory "d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../arm-none-eabi/tmp/jenkins/jenkins-GCC-7-build_toolchain_docker-633_20171130_1512067137/install-mingw/lib/gcc/arm-none-eabi/7.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1]
+  ignore line: [ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi]
+  ignore line: [ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward]
+  ignore line: [ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/include]
+  ignore line: [ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/include-fixed]
+  ignore line: [ d:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GNU Tools for Arm Embedded Processors 7-2017-q4-major) version 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4a8086f83512c6a6997de2bdaa8b3556]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9236b.dir\CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as.exe -v -meabi=5 -o CMakeFiles\cmTC_9236b.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccBzRNpx.s]
+  ignore line: [GNU assembler version 2.29.51 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 2.29.51.20171128]
+  ignore line: [COMPILER_PATH=d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/]
+  ignore line: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/]
+  ignore line: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/]
+  ignore line: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/]
+  ignore line: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [d:/software/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9236b.dir\CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [Linking CXX static library libcmTC_9236b.a]
+  ignore line: ["C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_9236b.dir\cmake_clean_target.cmake]
+  ignore line: ["C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9236b.dir\link.txt --verbose=1]
+  ignore line: [D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_9236b.a  CMakeFiles/cmTC_9236b.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_9236b.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_ee611/fast 
+D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_ee611.dir\build.make CMakeFiles/cmTC_ee611.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ee611.dir/feature_tests.cxx.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-g++.exe    -std=c++1z -o CMakeFiles\cmTC_ee611.dir\feature_tests.cxx.obj -c E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles\feature_tests.cxx
+Linking CXX static library libcmTC_ee611.a
+"C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_ee611.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ee611.dir\link.txt --verbose=1
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_ee611.a  CMakeFiles/cmTC_ee611.dir/feature_tests.cxx.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_ee611.a
+mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_41b78/fast 
+D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_41b78.dir\build.make CMakeFiles/cmTC_41b78.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_41b78.dir/feature_tests.cxx.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-g++.exe    -std=c++14 -o CMakeFiles\cmTC_41b78.dir\feature_tests.cxx.obj -c E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles\feature_tests.cxx
+Linking CXX static library libcmTC_41b78.a
+"C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_41b78.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_41b78.dir\link.txt --verbose=1
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_41b78.a  CMakeFiles/cmTC_41b78.dir/feature_tests.cxx.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_41b78.a
+mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_ac66d/fast 
+D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_ac66d.dir\build.make CMakeFiles/cmTC_ac66d.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ac66d.dir/feature_tests.cxx.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-g++.exe    -std=c++11 -o CMakeFiles\cmTC_ac66d.dir\feature_tests.cxx.obj -c E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles\feature_tests.cxx
+Linking CXX static library libcmTC_ac66d.a
+"C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_ac66d.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ac66d.dir\link.txt --verbose=1
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_ac66d.a  CMakeFiles/cmTC_ac66d.dir/feature_tests.cxx.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_ac66d.a
+mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/mingw/mingw64/bin/mingw32-make.exe cmTC_7e7a7/fast 
+D:/mingw/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_7e7a7.dir\build.make CMakeFiles/cmTC_7e7a7.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7e7a7.dir/feature_tests.cxx.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-g++.exe    -std=c++98 -o CMakeFiles\cmTC_7e7a7.dir\feature_tests.cxx.obj -c E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles\feature_tests.cxx
+Linking CXX static library libcmTC_7e7a7.a
+"C:\Program Files\CMake1\bin\cmake.exe" -P CMakeFiles\cmTC_7e7a7.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7e7a7.dir\link.txt --verbose=1
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ar.exe qc libcmTC_7e7a7.a  CMakeFiles/cmTC_7e7a7.dir/feature_tests.cxx.obj
+D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-ranlib.exe libcmTC_7e7a7.a
+mingw32-make.exe[1]: Leaving directory 'E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204]
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+

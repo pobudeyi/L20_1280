@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug-L20",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "jlink",
+            "device": "STM32L433CC",
+            "cwd": "${workspaceRoot}",
+            "executable": "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/src/L20",
+            "interface": "swd",
+            "runToMain": true,
+            "svdFile": ""
+        }
+    ]
+}
