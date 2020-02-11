@@ -1,7 +1,7 @@
 #include "sx1280.h"
 #include "sx1280-hal.h"
 #include "rangingcorrection.h"
-
+#include "math.h"
 /*!
  * \brief Radio registers definition
  *
@@ -1058,7 +1058,7 @@ int32_t SX1280GetLoRaBandwidth( )
 
 double SX1280GetRangingCorrectionPerSfBwGain( const SX1280_RadioLoRaSpreadingFactors_t sf, const SX1280_RadioLoRaBandwidths_t bw, const int8_t gain){
     uint8_t sf_index, bw_index;
-    
+
     switch(sf){
         case SX1280_LORA_SF5:
             sf_index = 0;
@@ -1096,7 +1096,7 @@ double SX1280GetRangingCorrectionPerSfBwGain( const SX1280_RadioLoRaSpreadingFac
             bw_index = 2;
             break;
     }
-    
+
     double correction = RangingCorrectionPerSfBwGain[sf_index][bw_index][gain];
     return correction;
 }
@@ -1172,9 +1172,3 @@ void SX1280OnDioIrq( void )
 //        SX1280ProcessIrqs( );
     }
 }
-
-
-
-
-
-

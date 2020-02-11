@@ -15,6 +15,8 @@ static USART_RECEIVETYPE *p_RS232RecvType3=&RS232RecvType3[0];
 
 QueueHandle_t xRS232SendQueue3 = NULL;
 
+extern SemaphoreHandle_t  xLoraRecSemaphore;
+
 ///* USER CODE BEGIN 1 */
 #if 0
 #define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
@@ -56,6 +58,7 @@ static uint8_t shake_cnt=0;
 uint16_t tmp_cnt=0;
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
+    BaseType_t xHigherPriorityTaskWoken = pdFALSE;
     if(GPIO_PIN_4==GPIO_Pin)
     {
         printf("this is pin4 %d\r\n",shake_cnt++);
@@ -63,6 +66,11 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
     if(GPIO_PIN_1==GPIO_Pin)
     {
         tmp_cnt++;
+    }
+    if(GPIO_PIN_6==GPIO_Pin)
+    {
+        xSemaphoreGiveFromISR(xLoraRecSemaphore,&xHigherPriorityTaskWoken);
+        portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
     }
 }
 //DMA发送完成中断回调函数

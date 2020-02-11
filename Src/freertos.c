@@ -37,7 +37,8 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+SemaphoreHandle_t  xLoraRecSemaphore;
+#define LORAMODE 0
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -48,7 +49,7 @@
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
 	  extern uint16_t tmp_cnt;
-	__IO float tmp_vaule;
+
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -137,19 +138,75 @@ void StartDefaultTask(void const * argument)
   /* USER CODE BEGIN StartDefaultTask */
   //USART_RECEIVETYPE *ucQueueMsgValue;
   /* Infinite loop */
-  for(;;)
-  {
-    // xQueueReceive(xRS232SendQueue3,(USART_RECEIVETYPE *)&ucQueueMsgValue,(TickType_t)portMAX_DELAY); //portMAX_DELAY
-    // if(ucQueueMsgValue->rx_len==1)
-    //     HAL_UART_Receive_DMA(&huart1,ucQueueMsgValue->usartDMA_rxBuf,RECEIVELEN);
-    // ucQueueMsgValue->usartDMA_rxBuf[ucQueueMsgValue->rx_len]=0;
-    //HAL_UART_Transmit_DMA(&huart1,(uint8_t *)ucQueueMsgValue->usartDMA_rxBuf,ucQueueMsgValue->rx_len);//获取gps信息
-    //HAL_UART_Transmit_DMA(&huart1,(uint8_t *)&ucQueueMsgValue->receive_flag,1);//获取gps信息
-    //printf("%d-%s",ucQueueMsgValue->receive_flag,ucQueueMsgValue->usartDMA_rxBuf);
-    //ucQueueMsgValue->receive_flag=0;
-    lorawan_at_process();
-    //osDelay(1000);
-  }
+    #if (LORAMODE == 1)
+    uint8_t RxData[20];
+    uint8_t RxSize = 0;
+    uint8_t rssi;
+    uint8_t i;
+    #else
+    uint8_t TxData[20];
+    #endif
+    uint8_t count=0;
+    LORA2G4SetParams();
+    printf("System init\r\n");
+    printf("APP for LORA\r\n");
+    LORA2G4Init();
+    #if (LORAMODE == 1)
+    {
+        LORA2G4SetRx();
+        printf("Role for Rx\r\n");
+    }
+    #else
+    {
+        printf("Role for Tx\r\n");
+    }
+    #endif
+    for(;;)
+    {
+        #if (LORAMODE == 1)
+        {
+            //if (HAL_GPIO_ReadPin(DIO1_2G4_GPIO_Port, DIO1_2G4_Pin) == 1)
+            xSemaphoreTake(xLoraRecSemaphore, (TickType_t)portMAX_DELAY);
+              {
+                  osDelay(10);
+                  SX1280GetPayload(RxData, &RxSize, LORA2G4_BUFFER_SIZE);
+                  SX1280ClearIrqStatus(SX1280_IRQ_RADIO_ALL);
+
+                  rssi = SX1280GetRssiInst();
+
+                  printf("Received msg: ");
+                  for(i=0;i<RxSize;i++)
+                  {
+                      printf("%c",RxData[i]);
+                  }
+                // while(HAL_UART_Transmit_IT(&huart1, RxData, RxSize) == HAL_BUSY);
+                //   while(HAL_UART_Transmit_IT(&huart1, "\r\n", 2) == HAL_BUSY);
+                  printf("count=%d Rssi: %d\r\n", count++,(int8_t)rssi);
+
+                  LORA2G4SetRx();
+              }
+        }
+        #else
+        {
+            memset(TxData,0,sizeof(TxData));
+            sprintf(TxData,"hello%d\r\n",count++);
+            LORA2G4SendData(TxData, strlen(TxData));
+            printf("%s",TxData);
+            HAL_Delay(1000);
+        }
+        #endif
+
+        // xQueueReceive(xRS232SendQueue3,(USART_RECEIVETYPE *)&ucQueueMsgValue,(TickType_t)portMAX_DELAY); //portMAX_DELAY
+        // if(ucQueueMsgValue->rx_len==1)
+        //     HAL_UART_Receive_DMA(&huart1,ucQueueMsgValue->usartDMA_rxBuf,RECEIVELEN);
+        // ucQueueMsgValue->usartDMA_rxBuf[ucQueueMsgValue->rx_len]=0;
+        //HAL_UART_Transmit_DMA(&huart1,(uint8_t *)ucQueueMsgValue->usartDMA_rxBuf,ucQueueMsgValue->rx_len);//获取gps信息
+        //HAL_UART_Transmit_DMA(&huart1,(uint8_t *)&ucQueueMsgValue->receive_flag,1);//获取gps信息
+        //printf("%d-%s",ucQueueMsgValue->receive_flag,ucQueueMsgValue->usartDMA_rxBuf);
+        //ucQueueMsgValue->receive_flag=0;
+        // lorawan_at_process();
+        //osDelay(1000);
+    }
   /* USER CODE END StartDefaultTask */
 }
 
@@ -166,7 +223,8 @@ void qma6981_task(void const * argument)
   /* Infinite loop */
   char temp_data[64]={0};
   uint16_t a,b;
-  QMA6981Init();
+  float tmp_vaule;
+  //QMA6981Init();
   for(;;)
   {
     osDelay(1000);
@@ -180,6 +238,7 @@ void qma6981_task(void const * argument)
     b=tmp_vaule*1000-a;
     sprintf(temp_data,"%d-%d.%d\r\n",tmp_cnt,(uint16_t)tmp_vaule,b);
     printf("%s",temp_data);
+   //printf("%.3f\r\n",tmp_vaule);
   }
   /* USER CODE END qma6981_task */
 }
