@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Windows-10.0.17763")
+set(CMAKE_HOST_SYSTEM "Windows-10.0.18362")
 set(CMAKE_HOST_SYSTEM_NAME "Windows")
-set(CMAKE_HOST_SYSTEM_VERSION "10.0.17763")
+set(CMAKE_HOST_SYSTEM_VERSION "10.0.18362")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("E:/L20/sx1280Basic/sx1280Basic_s/cmake/toolchain-arm-none-eabi.cmake")
+include("E:/code/L20/L20_1280/cmake/toolchain-arm-none-eabi.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

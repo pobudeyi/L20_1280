@@ -1,0 +1,221 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/croutine.c.obj"
+		},
+		{
+			"path" : "Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+		},
+		{
+			"path" : "Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/list.c.obj"
+		},
+		{
+			"path" : "Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/queue.c.obj"
+		},
+		{
+			"path" : "Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/tasks.c.obj"
+		},
+		{
+			"path" : "Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/timers.c.obj"
+		},
+		{
+			"path" : "Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+		},
+		{
+			"path" : "Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+		},
+		{
+			"path" : "Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"Middlewares/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Os -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall  -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -Wl,--defsym=SE_APP_SetSecParameter=0x08001655 -Wl,--defsym=SE_APP_GetSecParameter=0x0800167b -std=c99  -Og -g -Wall   -std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "STM32L433xx"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Middlewares/Third_Party/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Middlewares/../inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Middlewares/../Drivers/CMSIS/Include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"id" : "rtos::@5befd97ae422393b252e",
+	"name" : "rtos",
+	"paths" : 
+	{
+		"build" : "Middlewares",
+		"source" : "Middlewares"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

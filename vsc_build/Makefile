@@ -47,10 +47,10 @@ RM = "C:\Program Files\CMake1\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\L20\sx1280Basic\sx1280Basic_s
+CMAKE_SOURCE_DIR = E:\code\L20\L20_1280
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\L20\sx1280Basic\sx1280Basic_s\vsc_build
+CMAKE_BINARY_DIR = E:\code\L20\L20_1280\vsc_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\code\L20\L20_1280\vsc_build\CMakeFiles E:\code\L20\L20_1280\vsc_build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\code\L20\L20_1280\vsc_build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -47,10 +47,10 @@ RM = "C:\Program Files\CMake1\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\L20\sx1280Basic\sx1280Basic_s
+CMAKE_SOURCE_DIR = E:\code\L20\L20_1280
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\L20\sx1280Basic\sx1280Basic_s\vsc_build
+CMAKE_BINARY_DIR = E:\code\L20\L20_1280\vsc_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(CMAKE_COMMAND) -E cmake_progress_start E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Middlewares\CMakeFiles\progress.marks
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Middlewares/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles 0
+	cd /d E:\code\L20\L20_1280\vsc_build && $(CMAKE_COMMAND) -E cmake_progress_start E:\code\L20\L20_1280\vsc_build\CMakeFiles E:\code\L20\L20_1280\vsc_build\Middlewares\CMakeFiles\progress.marks
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Middlewares/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\code\L20\L20_1280\vsc_build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Middlewares/clean
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Middlewares/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +96,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Middlewares/preinstall
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Middlewares/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Middlewares/preinstall
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Middlewares/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d E:\code\L20\L20_1280\vsc_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Middlewares/CMakeFiles/rtos.dir/rule:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Middlewares/CMakeFiles/rtos.dir/rule
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Middlewares/CMakeFiles/rtos.dir/rule
 .PHONY : Middlewares/CMakeFiles/rtos.dir/rule
 
 # Convenience name for target.
@@ -121,7 +121,7 @@ rtos: Middlewares/CMakeFiles/rtos.dir/rule
 
 # fast build rule for target.
 rtos/fast:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/build
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/build
 .PHONY : rtos/fast
 
 Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
@@ -130,7 +130,7 @@ Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: Third_Party/FreeRTOS/Source
 
 # target to build an object file
 Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
 .PHONY : Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
 
 Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i: Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
@@ -139,7 +139,7 @@ Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i: Third_Party/FreeRTOS/Source/C
 
 # target to preprocess a source file
 Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
 .PHONY : Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
 
 Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s: Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
@@ -148,7 +148,7 @@ Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s: Third_Party/FreeRTOS/Source/C
 
 # target to generate assembly for a file
 Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
 .PHONY : Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
 
 Third_Party/FreeRTOS/Source/croutine.obj: Third_Party/FreeRTOS/Source/croutine.c.obj
@@ -157,7 +157,7 @@ Third_Party/FreeRTOS/Source/croutine.obj: Third_Party/FreeRTOS/Source/croutine.c
 
 # target to build an object file
 Third_Party/FreeRTOS/Source/croutine.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/croutine.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/croutine.c.obj
 .PHONY : Third_Party/FreeRTOS/Source/croutine.c.obj
 
 Third_Party/FreeRTOS/Source/croutine.i: Third_Party/FreeRTOS/Source/croutine.c.i
@@ -166,7 +166,7 @@ Third_Party/FreeRTOS/Source/croutine.i: Third_Party/FreeRTOS/Source/croutine.c.i
 
 # target to preprocess a source file
 Third_Party/FreeRTOS/Source/croutine.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/croutine.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/croutine.c.i
 .PHONY : Third_Party/FreeRTOS/Source/croutine.c.i
 
 Third_Party/FreeRTOS/Source/croutine.s: Third_Party/FreeRTOS/Source/croutine.c.s
@@ -175,7 +175,7 @@ Third_Party/FreeRTOS/Source/croutine.s: Third_Party/FreeRTOS/Source/croutine.c.s
 
 # target to generate assembly for a file
 Third_Party/FreeRTOS/Source/croutine.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/croutine.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/croutine.c.s
 .PHONY : Third_Party/FreeRTOS/Source/croutine.c.s
 
 Third_Party/FreeRTOS/Source/event_groups.obj: Third_Party/FreeRTOS/Source/event_groups.c.obj
@@ -184,7 +184,7 @@ Third_Party/FreeRTOS/Source/event_groups.obj: Third_Party/FreeRTOS/Source/event_
 
 # target to build an object file
 Third_Party/FreeRTOS/Source/event_groups.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/event_groups.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/event_groups.c.obj
 .PHONY : Third_Party/FreeRTOS/Source/event_groups.c.obj
 
 Third_Party/FreeRTOS/Source/event_groups.i: Third_Party/FreeRTOS/Source/event_groups.c.i
@@ -193,7 +193,7 @@ Third_Party/FreeRTOS/Source/event_groups.i: Third_Party/FreeRTOS/Source/event_gr
 
 # target to preprocess a source file
 Third_Party/FreeRTOS/Source/event_groups.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/event_groups.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/event_groups.c.i
 .PHONY : Third_Party/FreeRTOS/Source/event_groups.c.i
 
 Third_Party/FreeRTOS/Source/event_groups.s: Third_Party/FreeRTOS/Source/event_groups.c.s
@@ -202,7 +202,7 @@ Third_Party/FreeRTOS/Source/event_groups.s: Third_Party/FreeRTOS/Source/event_gr
 
 # target to generate assembly for a file
 Third_Party/FreeRTOS/Source/event_groups.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/event_groups.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/event_groups.c.s
 .PHONY : Third_Party/FreeRTOS/Source/event_groups.c.s
 
 Third_Party/FreeRTOS/Source/list.obj: Third_Party/FreeRTOS/Source/list.c.obj
@@ -211,7 +211,7 @@ Third_Party/FreeRTOS/Source/list.obj: Third_Party/FreeRTOS/Source/list.c.obj
 
 # target to build an object file
 Third_Party/FreeRTOS/Source/list.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/list.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/list.c.obj
 .PHONY : Third_Party/FreeRTOS/Source/list.c.obj
 
 Third_Party/FreeRTOS/Source/list.i: Third_Party/FreeRTOS/Source/list.c.i
@@ -220,7 +220,7 @@ Third_Party/FreeRTOS/Source/list.i: Third_Party/FreeRTOS/Source/list.c.i
 
 # target to preprocess a source file
 Third_Party/FreeRTOS/Source/list.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/list.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/list.c.i
 .PHONY : Third_Party/FreeRTOS/Source/list.c.i
 
 Third_Party/FreeRTOS/Source/list.s: Third_Party/FreeRTOS/Source/list.c.s
@@ -229,7 +229,7 @@ Third_Party/FreeRTOS/Source/list.s: Third_Party/FreeRTOS/Source/list.c.s
 
 # target to generate assembly for a file
 Third_Party/FreeRTOS/Source/list.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/list.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/list.c.s
 .PHONY : Third_Party/FreeRTOS/Source/list.c.s
 
 Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj: Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
@@ -238,7 +238,7 @@ Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj: Third_Party/FreeRTOS
 
 # target to build an object file
 Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 .PHONY : Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 
 Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i: Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
@@ -247,7 +247,7 @@ Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i: Third_Party/FreeRTOS/S
 
 # target to preprocess a source file
 Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
 .PHONY : Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
 
 Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s: Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
@@ -256,7 +256,7 @@ Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s: Third_Party/FreeRTOS/S
 
 # target to generate assembly for a file
 Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
 .PHONY : Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
 
 Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj: Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
@@ -265,7 +265,7 @@ Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj: Third_Party/FreeRTOS/So
 
 # target to build an object file
 Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
 .PHONY : Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
 
 Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i: Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
@@ -274,7 +274,7 @@ Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i: Third_Party/FreeRTOS/Sour
 
 # target to preprocess a source file
 Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
 .PHONY : Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
 
 Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s: Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
@@ -283,7 +283,7 @@ Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s: Third_Party/FreeRTOS/Sour
 
 # target to generate assembly for a file
 Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
 .PHONY : Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
 
 Third_Party/FreeRTOS/Source/queue.obj: Third_Party/FreeRTOS/Source/queue.c.obj
@@ -292,7 +292,7 @@ Third_Party/FreeRTOS/Source/queue.obj: Third_Party/FreeRTOS/Source/queue.c.obj
 
 # target to build an object file
 Third_Party/FreeRTOS/Source/queue.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/queue.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/queue.c.obj
 .PHONY : Third_Party/FreeRTOS/Source/queue.c.obj
 
 Third_Party/FreeRTOS/Source/queue.i: Third_Party/FreeRTOS/Source/queue.c.i
@@ -301,7 +301,7 @@ Third_Party/FreeRTOS/Source/queue.i: Third_Party/FreeRTOS/Source/queue.c.i
 
 # target to preprocess a source file
 Third_Party/FreeRTOS/Source/queue.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/queue.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/queue.c.i
 .PHONY : Third_Party/FreeRTOS/Source/queue.c.i
 
 Third_Party/FreeRTOS/Source/queue.s: Third_Party/FreeRTOS/Source/queue.c.s
@@ -310,7 +310,7 @@ Third_Party/FreeRTOS/Source/queue.s: Third_Party/FreeRTOS/Source/queue.c.s
 
 # target to generate assembly for a file
 Third_Party/FreeRTOS/Source/queue.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/queue.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/queue.c.s
 .PHONY : Third_Party/FreeRTOS/Source/queue.c.s
 
 Third_Party/FreeRTOS/Source/tasks.obj: Third_Party/FreeRTOS/Source/tasks.c.obj
@@ -319,7 +319,7 @@ Third_Party/FreeRTOS/Source/tasks.obj: Third_Party/FreeRTOS/Source/tasks.c.obj
 
 # target to build an object file
 Third_Party/FreeRTOS/Source/tasks.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/tasks.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/tasks.c.obj
 .PHONY : Third_Party/FreeRTOS/Source/tasks.c.obj
 
 Third_Party/FreeRTOS/Source/tasks.i: Third_Party/FreeRTOS/Source/tasks.c.i
@@ -328,7 +328,7 @@ Third_Party/FreeRTOS/Source/tasks.i: Third_Party/FreeRTOS/Source/tasks.c.i
 
 # target to preprocess a source file
 Third_Party/FreeRTOS/Source/tasks.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/tasks.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/tasks.c.i
 .PHONY : Third_Party/FreeRTOS/Source/tasks.c.i
 
 Third_Party/FreeRTOS/Source/tasks.s: Third_Party/FreeRTOS/Source/tasks.c.s
@@ -337,7 +337,7 @@ Third_Party/FreeRTOS/Source/tasks.s: Third_Party/FreeRTOS/Source/tasks.c.s
 
 # target to generate assembly for a file
 Third_Party/FreeRTOS/Source/tasks.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/tasks.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/tasks.c.s
 .PHONY : Third_Party/FreeRTOS/Source/tasks.c.s
 
 Third_Party/FreeRTOS/Source/timers.obj: Third_Party/FreeRTOS/Source/timers.c.obj
@@ -346,7 +346,7 @@ Third_Party/FreeRTOS/Source/timers.obj: Third_Party/FreeRTOS/Source/timers.c.obj
 
 # target to build an object file
 Third_Party/FreeRTOS/Source/timers.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/timers.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/timers.c.obj
 .PHONY : Third_Party/FreeRTOS/Source/timers.c.obj
 
 Third_Party/FreeRTOS/Source/timers.i: Third_Party/FreeRTOS/Source/timers.c.i
@@ -355,7 +355,7 @@ Third_Party/FreeRTOS/Source/timers.i: Third_Party/FreeRTOS/Source/timers.c.i
 
 # target to preprocess a source file
 Third_Party/FreeRTOS/Source/timers.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/timers.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/timers.c.i
 .PHONY : Third_Party/FreeRTOS/Source/timers.c.i
 
 Third_Party/FreeRTOS/Source/timers.s: Third_Party/FreeRTOS/Source/timers.c.s
@@ -364,7 +364,7 @@ Third_Party/FreeRTOS/Source/timers.s: Third_Party/FreeRTOS/Source/timers.c.s
 
 # target to generate assembly for a file
 Third_Party/FreeRTOS/Source/timers.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/timers.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Middlewares\CMakeFiles\rtos.dir\build.make Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Third_Party/FreeRTOS/Source/timers.c.s
 
 # Help Target
@@ -414,6 +414,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d E:\code\L20\L20_1280\vsc_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

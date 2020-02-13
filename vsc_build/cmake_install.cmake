@@ -1,4 +1,4 @@
-# Install script for directory: E:/L20/sx1280Basic/sx1280Basic_s
+# Install script for directory: E:/code/L20/L20_1280
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/Drivers/cmake_install.cmake")
-  include("E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/Middlewares/cmake_install.cmake")
-  include("E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/Src/cmake_install.cmake")
+  include("E:/code/L20/L20_1280/vsc_build/Drivers/cmake_install.cmake")
+  include("E:/code/L20/L20_1280/vsc_build/Middlewares/cmake_install.cmake")
+  include("E:/code/L20/L20_1280/vsc_build/Src/cmake_install.cmake")
 
 endif()
 
@@ -48,5 +48,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/code/L20/L20_1280/vsc_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

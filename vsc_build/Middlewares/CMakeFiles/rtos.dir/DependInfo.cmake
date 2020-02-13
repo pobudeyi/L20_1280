@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/L20/sx1280Basic/sx1280Basic_s/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
-  "E:/L20/sx1280Basic/sx1280Basic_s/Middlewares/Third_Party/FreeRTOS/Source/croutine.c" "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/croutine.c.obj"
-  "E:/L20/sx1280Basic/sx1280Basic_s/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/event_groups.c.obj"
-  "E:/L20/sx1280Basic/sx1280Basic_s/Middlewares/Third_Party/FreeRTOS/Source/list.c" "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/list.c.obj"
-  "E:/L20/sx1280Basic/sx1280Basic_s/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c" "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
-  "E:/L20/sx1280Basic/sx1280Basic_s/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
-  "E:/L20/sx1280Basic/sx1280Basic_s/Middlewares/Third_Party/FreeRTOS/Source/queue.c" "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/queue.c.obj"
-  "E:/L20/sx1280Basic/sx1280Basic_s/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/tasks.c.obj"
-  "E:/L20/sx1280Basic/sx1280Basic_s/Middlewares/Third_Party/FreeRTOS/Source/timers.c" "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/timers.c.obj"
+  "E:/code/L20/L20_1280/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" "E:/code/L20/L20_1280/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+  "E:/code/L20/L20_1280/Middlewares/Third_Party/FreeRTOS/Source/croutine.c" "E:/code/L20/L20_1280/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/croutine.c.obj"
+  "E:/code/L20/L20_1280/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" "E:/code/L20/L20_1280/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+  "E:/code/L20/L20_1280/Middlewares/Third_Party/FreeRTOS/Source/list.c" "E:/code/L20/L20_1280/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/list.c.obj"
+  "E:/code/L20/L20_1280/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c" "E:/code/L20/L20_1280/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+  "E:/code/L20/L20_1280/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" "E:/code/L20/L20_1280/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+  "E:/code/L20/L20_1280/Middlewares/Third_Party/FreeRTOS/Source/queue.c" "E:/code/L20/L20_1280/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/queue.c.obj"
+  "E:/code/L20/L20_1280/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" "E:/code/L20/L20_1280/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/tasks.c.obj"
+  "E:/code/L20/L20_1280/Middlewares/Third_Party/FreeRTOS/Source/timers.c" "E:/code/L20/L20_1280/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/timers.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -8,7 +8,7 @@
             "servertype": "jlink",
             "device": "STM32L433CC",
             "cwd": "${workspaceRoot}",
-            "executable": "E:/L20/sx1280Basic/sx1280Basic_s/vsc_build/src/L20",
+            "executable": "E:/code/L20/L20_1280/vsc_build/src/L20",
             "interface": "swd",
             "runToMain": true,
             "svdFile": ""

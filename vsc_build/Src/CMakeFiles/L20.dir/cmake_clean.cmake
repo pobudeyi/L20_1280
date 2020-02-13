@@ -14,7 +14,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/L20.dir/sx1280/2G4.c.obj"
   "CMakeFiles/L20.dir/sx1280/sx1280-hal.c.obj"
   "CMakeFiles/L20.dir/sx1280/sx1280.c.obj"
-  "CMakeFiles/L20.dir/sys.c.obj"
   "CMakeFiles/L20.dir/system_stm32l4xx.c.obj"
   "CMakeFiles/L20.dir/usart.c.obj"
   "CMakeFiles/L20.dir/utilities.c.obj"

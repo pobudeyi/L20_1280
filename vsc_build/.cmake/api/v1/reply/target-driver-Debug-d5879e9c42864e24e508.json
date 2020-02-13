@@ -1,0 +1,416 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj"
+		},
+		{
+			"path" : "Drivers/CMakeFiles/driver.dir/__/startup_stm32l433xx.s.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"Drivers/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Os -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall  -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -Wl,--defsym=SE_APP_SetSecParameter=0x08001655 -Wl,--defsym=SE_APP_GetSecParameter=0x0800167b -std=c99  -Og -g -Wall   -std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "STM32L433xx"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Drivers/CMSIS/Device/ST/STM32L4xx/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Drivers/../inc"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Os -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall  -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -Wl,--defsym=SE_APP_SetSecParameter=0x08001655 -Wl,--defsym=SE_APP_GetSecParameter=0x0800167b -x assembler-with-cpp  -g -Wall  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "STM32L433xx"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Drivers/CMSIS/Device/ST/STM32L4xx/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Drivers/../inc"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				21
+			]
+		}
+	],
+	"id" : "driver::@d4027ddec5a05e91d527",
+	"name" : "driver",
+	"paths" : 
+	{
+		"build" : "Drivers",
+		"source" : "Drivers"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				21
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "startup_stm32l433xx.s",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

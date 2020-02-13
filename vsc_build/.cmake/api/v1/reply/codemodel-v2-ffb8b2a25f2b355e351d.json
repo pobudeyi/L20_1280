@@ -1,0 +1,173 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Drivers",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Drivers",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Middlewares",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Middlewares",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RinLink-L20"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "driver",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "rtos",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "L20",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "L20::@fffd7673bb2fd0d58c2a",
+					"jsonFile" : "target-L20-Debug-13c9c9f3d86db8516d77.json",
+					"name" : "L20",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "L20.bin::@fffd7673bb2fd0d58c2a",
+					"jsonFile" : "target-L20.bin-Debug-3e60c079ed92656c307f.json",
+					"name" : "L20.bin",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "L20.hex::@fffd7673bb2fd0d58c2a",
+					"jsonFile" : "target-L20.hex-Debug-049a3508089330e46765.json",
+					"name" : "L20.hex",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "driver::@d4027ddec5a05e91d527",
+					"jsonFile" : "target-driver-Debug-d5879e9c42864e24e508.json",
+					"name" : "driver",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rtos::@5befd97ae422393b252e",
+					"jsonFile" : "target-rtos-Debug-ec219d5c4baf234e8905.json",
+					"name" : "rtos",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/code/L20/L20_1280/vsc_build",
+		"source" : "E:/code/L20/L20_1280"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

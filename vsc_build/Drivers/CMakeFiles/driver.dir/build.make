@@ -42,10 +42,10 @@ RM = "C:\Program Files\CMake1\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\L20\sx1280Basic\sx1280Basic_s
+CMAKE_SOURCE_DIR = E:\code\L20\L20_1280
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\L20\sx1280Basic\sx1280Basic_s\vsc_build
+CMAKE_BINARY_DIR = E:\code\L20\L20_1280\vsc_build
 
 # Include any dependencies generated for this target.
 include Drivers/CMakeFiles/driver.dir/depend.make
@@ -58,281 +58,281 @@ include Drivers/CMakeFiles/driver.dir/flags.make
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c.s
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c.obj   -c E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c.obj   -c E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.i"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c > CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c.i
 
 Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.s"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\L20\sx1280Basic\sx1280Basic_s\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c -o CMakeFiles\driver.dir\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c.s
 
 Drivers/CMakeFiles/driver.dir/__/startup_stm32l433xx.s.obj: Drivers/CMakeFiles/driver.dir/flags.make
 Drivers/CMakeFiles/driver.dir/__/startup_stm32l433xx.s.obj: ../startup_stm32l433xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object Drivers/CMakeFiles/driver.dir/__/startup_stm32l433xx.s.obj"
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\driver.dir\__\startup_stm32l433xx.s.obj -c E:\L20\sx1280Basic\sx1280Basic_s\startup_stm32l433xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object Drivers/CMakeFiles/driver.dir/__/startup_stm32l433xx.s.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\driver.dir\__\startup_stm32l433xx.s.obj -c E:\code\L20\L20_1280\startup_stm32l433xx.s
 
 driver: Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
 driver: Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
@@ -366,10 +366,10 @@ Drivers/CMakeFiles/driver.dir/build: driver
 .PHONY : Drivers/CMakeFiles/driver.dir/build
 
 Drivers/CMakeFiles/driver.dir/clean:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers && $(CMAKE_COMMAND) -P CMakeFiles\driver.dir\cmake_clean.cmake
+	cd /d E:\code\L20\L20_1280\vsc_build\Drivers && $(CMAKE_COMMAND) -P CMakeFiles\driver.dir\cmake_clean.cmake
 .PHONY : Drivers/CMakeFiles/driver.dir/clean
 
 Drivers/CMakeFiles/driver.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\L20\sx1280Basic\sx1280Basic_s E:\L20\sx1280Basic\sx1280Basic_s\Drivers E:\L20\sx1280Basic\sx1280Basic_s\vsc_build E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers\CMakeFiles\driver.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\code\L20\L20_1280 E:\code\L20\L20_1280\Drivers E:\code\L20\L20_1280\vsc_build E:\code\L20\L20_1280\vsc_build\Drivers E:\code\L20\L20_1280\vsc_build\Drivers\CMakeFiles\driver.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : Drivers/CMakeFiles/driver.dir/depend
 

@@ -47,10 +47,10 @@ RM = "C:\Program Files\CMake1\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\L20\sx1280Basic\sx1280Basic_s
+CMAKE_SOURCE_DIR = E:\code\L20\L20_1280
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\L20\sx1280Basic\sx1280Basic_s\vsc_build
+CMAKE_BINARY_DIR = E:\code\L20\L20_1280\vsc_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(CMAKE_COMMAND) -E cmake_progress_start E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Src\CMakeFiles\progress.marks
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles 0
+	cd /d E:\code\L20\L20_1280\vsc_build && $(CMAKE_COMMAND) -E cmake_progress_start E:\code\L20\L20_1280\vsc_build\CMakeFiles E:\code\L20\L20_1280\vsc_build\Src\CMakeFiles\progress.marks
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\code\L20\L20_1280\vsc_build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/clean
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +96,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/preinstall
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/preinstall
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d E:\code\L20\L20_1280\vsc_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Src/CMakeFiles/L20.dir/rule:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/CMakeFiles/L20.dir/rule
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/CMakeFiles/L20.dir/rule
 .PHONY : Src/CMakeFiles/L20.dir/rule
 
 # Convenience name for target.
@@ -121,12 +121,12 @@ L20: Src/CMakeFiles/L20.dir/rule
 
 # fast build rule for target.
 L20/fast:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/build
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/build
 .PHONY : L20/fast
 
 # Convenience name for target.
 Src/CMakeFiles/L20.bin.dir/rule:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/CMakeFiles/L20.bin.dir/rule
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/CMakeFiles/L20.bin.dir/rule
 .PHONY : Src/CMakeFiles/L20.bin.dir/rule
 
 # Convenience name for target.
@@ -136,12 +136,12 @@ L20.bin: Src/CMakeFiles/L20.bin.dir/rule
 
 # fast build rule for target.
 L20.bin/fast:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.bin.dir\build.make Src/CMakeFiles/L20.bin.dir/build
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.bin.dir\build.make Src/CMakeFiles/L20.bin.dir/build
 .PHONY : L20.bin/fast
 
 # Convenience name for target.
 Src/CMakeFiles/L20.hex.dir/rule:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/CMakeFiles/L20.hex.dir/rule
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Src/CMakeFiles/L20.hex.dir/rule
 .PHONY : Src/CMakeFiles/L20.hex.dir/rule
 
 # Convenience name for target.
@@ -151,7 +151,7 @@ L20.hex: Src/CMakeFiles/L20.hex.dir/rule
 
 # fast build rule for target.
 L20.hex/fast:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.hex.dir\build.make Src/CMakeFiles/L20.hex.dir/build
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.hex.dir\build.make Src/CMakeFiles/L20.hex.dir/build
 .PHONY : L20.hex/fast
 
 QMA6981.obj: QMA6981.c.obj
@@ -160,7 +160,7 @@ QMA6981.obj: QMA6981.c.obj
 
 # target to build an object file
 QMA6981.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/QMA6981.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/QMA6981.c.obj
 .PHONY : QMA6981.c.obj
 
 QMA6981.i: QMA6981.c.i
@@ -169,7 +169,7 @@ QMA6981.i: QMA6981.c.i
 
 # target to preprocess a source file
 QMA6981.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/QMA6981.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/QMA6981.c.i
 .PHONY : QMA6981.c.i
 
 QMA6981.s: QMA6981.c.s
@@ -178,7 +178,7 @@ QMA6981.s: QMA6981.c.s
 
 # target to generate assembly for a file
 QMA6981.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/QMA6981.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/QMA6981.c.s
 .PHONY : QMA6981.c.s
 
 at_cmd.obj: at_cmd.c.obj
@@ -187,7 +187,7 @@ at_cmd.obj: at_cmd.c.obj
 
 # target to build an object file
 at_cmd.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/at_cmd.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/at_cmd.c.obj
 .PHONY : at_cmd.c.obj
 
 at_cmd.i: at_cmd.c.i
@@ -196,7 +196,7 @@ at_cmd.i: at_cmd.c.i
 
 # target to preprocess a source file
 at_cmd.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/at_cmd.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/at_cmd.c.i
 .PHONY : at_cmd.c.i
 
 at_cmd.s: at_cmd.c.s
@@ -205,7 +205,7 @@ at_cmd.s: at_cmd.c.s
 
 # target to generate assembly for a file
 at_cmd.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/at_cmd.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/at_cmd.c.s
 .PHONY : at_cmd.c.s
 
 bsp_uart.obj: bsp_uart.c.obj
@@ -214,7 +214,7 @@ bsp_uart.obj: bsp_uart.c.obj
 
 # target to build an object file
 bsp_uart.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/bsp_uart.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/bsp_uart.c.obj
 .PHONY : bsp_uart.c.obj
 
 bsp_uart.i: bsp_uart.c.i
@@ -223,7 +223,7 @@ bsp_uart.i: bsp_uart.c.i
 
 # target to preprocess a source file
 bsp_uart.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/bsp_uart.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/bsp_uart.c.i
 .PHONY : bsp_uart.c.i
 
 bsp_uart.s: bsp_uart.c.s
@@ -232,7 +232,7 @@ bsp_uart.s: bsp_uart.c.s
 
 # target to generate assembly for a file
 bsp_uart.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/bsp_uart.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/bsp_uart.c.s
 .PHONY : bsp_uart.c.s
 
 dma.obj: dma.c.obj
@@ -241,7 +241,7 @@ dma.obj: dma.c.obj
 
 # target to build an object file
 dma.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/dma.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/dma.c.obj
 .PHONY : dma.c.obj
 
 dma.i: dma.c.i
@@ -250,7 +250,7 @@ dma.i: dma.c.i
 
 # target to preprocess a source file
 dma.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/dma.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/dma.c.i
 .PHONY : dma.c.i
 
 dma.s: dma.c.s
@@ -259,7 +259,7 @@ dma.s: dma.c.s
 
 # target to generate assembly for a file
 dma.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/dma.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/dma.c.s
 .PHONY : dma.c.s
 
 freertos.obj: freertos.c.obj
@@ -268,7 +268,7 @@ freertos.obj: freertos.c.obj
 
 # target to build an object file
 freertos.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/freertos.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/freertos.c.obj
 .PHONY : freertos.c.obj
 
 freertos.i: freertos.c.i
@@ -277,7 +277,7 @@ freertos.i: freertos.c.i
 
 # target to preprocess a source file
 freertos.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/freertos.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/freertos.c.i
 .PHONY : freertos.c.i
 
 freertos.s: freertos.c.s
@@ -286,7 +286,7 @@ freertos.s: freertos.c.s
 
 # target to generate assembly for a file
 freertos.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/freertos.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/freertos.c.s
 .PHONY : freertos.c.s
 
 gpio.obj: gpio.c.obj
@@ -295,7 +295,7 @@ gpio.obj: gpio.c.obj
 
 # target to build an object file
 gpio.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/gpio.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/gpio.c.obj
 .PHONY : gpio.c.obj
 
 gpio.i: gpio.c.i
@@ -304,7 +304,7 @@ gpio.i: gpio.c.i
 
 # target to preprocess a source file
 gpio.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/gpio.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/gpio.c.i
 .PHONY : gpio.c.i
 
 gpio.s: gpio.c.s
@@ -313,7 +313,7 @@ gpio.s: gpio.c.s
 
 # target to generate assembly for a file
 gpio.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/gpio.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/gpio.c.s
 .PHONY : gpio.c.s
 
 i2c.obj: i2c.c.obj
@@ -322,7 +322,7 @@ i2c.obj: i2c.c.obj
 
 # target to build an object file
 i2c.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/i2c.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/i2c.c.obj
 .PHONY : i2c.c.obj
 
 i2c.i: i2c.c.i
@@ -331,7 +331,7 @@ i2c.i: i2c.c.i
 
 # target to preprocess a source file
 i2c.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/i2c.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/i2c.c.i
 .PHONY : i2c.c.i
 
 i2c.s: i2c.c.s
@@ -340,7 +340,7 @@ i2c.s: i2c.c.s
 
 # target to generate assembly for a file
 i2c.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/i2c.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/i2c.c.s
 .PHONY : i2c.c.s
 
 main.obj: main.c.obj
@@ -349,7 +349,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/main.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -358,7 +358,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/main.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -367,7 +367,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/main.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/main.c.s
 .PHONY : main.c.s
 
 qst_sw_i2c.obj: qst_sw_i2c.c.obj
@@ -376,7 +376,7 @@ qst_sw_i2c.obj: qst_sw_i2c.c.obj
 
 # target to build an object file
 qst_sw_i2c.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/qst_sw_i2c.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/qst_sw_i2c.c.obj
 .PHONY : qst_sw_i2c.c.obj
 
 qst_sw_i2c.i: qst_sw_i2c.c.i
@@ -385,7 +385,7 @@ qst_sw_i2c.i: qst_sw_i2c.c.i
 
 # target to preprocess a source file
 qst_sw_i2c.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/qst_sw_i2c.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/qst_sw_i2c.c.i
 .PHONY : qst_sw_i2c.c.i
 
 qst_sw_i2c.s: qst_sw_i2c.c.s
@@ -394,7 +394,7 @@ qst_sw_i2c.s: qst_sw_i2c.c.s
 
 # target to generate assembly for a file
 qst_sw_i2c.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/qst_sw_i2c.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/qst_sw_i2c.c.s
 .PHONY : qst_sw_i2c.c.s
 
 spi.obj: spi.c.obj
@@ -403,7 +403,7 @@ spi.obj: spi.c.obj
 
 # target to build an object file
 spi.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/spi.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/spi.c.obj
 .PHONY : spi.c.obj
 
 spi.i: spi.c.i
@@ -412,7 +412,7 @@ spi.i: spi.c.i
 
 # target to preprocess a source file
 spi.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/spi.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/spi.c.i
 .PHONY : spi.c.i
 
 spi.s: spi.c.s
@@ -421,7 +421,7 @@ spi.s: spi.c.s
 
 # target to generate assembly for a file
 spi.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/spi.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/spi.c.s
 .PHONY : spi.c.s
 
 stm32l4xx_hal_msp.obj: stm32l4xx_hal_msp.c.obj
@@ -430,7 +430,7 @@ stm32l4xx_hal_msp.obj: stm32l4xx_hal_msp.c.obj
 
 # target to build an object file
 stm32l4xx_hal_msp.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/stm32l4xx_hal_msp.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/stm32l4xx_hal_msp.c.obj
 .PHONY : stm32l4xx_hal_msp.c.obj
 
 stm32l4xx_hal_msp.i: stm32l4xx_hal_msp.c.i
@@ -439,7 +439,7 @@ stm32l4xx_hal_msp.i: stm32l4xx_hal_msp.c.i
 
 # target to preprocess a source file
 stm32l4xx_hal_msp.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/stm32l4xx_hal_msp.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/stm32l4xx_hal_msp.c.i
 .PHONY : stm32l4xx_hal_msp.c.i
 
 stm32l4xx_hal_msp.s: stm32l4xx_hal_msp.c.s
@@ -448,7 +448,7 @@ stm32l4xx_hal_msp.s: stm32l4xx_hal_msp.c.s
 
 # target to generate assembly for a file
 stm32l4xx_hal_msp.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/stm32l4xx_hal_msp.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/stm32l4xx_hal_msp.c.s
 .PHONY : stm32l4xx_hal_msp.c.s
 
 stm32l4xx_it.obj: stm32l4xx_it.c.obj
@@ -457,7 +457,7 @@ stm32l4xx_it.obj: stm32l4xx_it.c.obj
 
 # target to build an object file
 stm32l4xx_it.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/stm32l4xx_it.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/stm32l4xx_it.c.obj
 .PHONY : stm32l4xx_it.c.obj
 
 stm32l4xx_it.i: stm32l4xx_it.c.i
@@ -466,7 +466,7 @@ stm32l4xx_it.i: stm32l4xx_it.c.i
 
 # target to preprocess a source file
 stm32l4xx_it.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/stm32l4xx_it.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/stm32l4xx_it.c.i
 .PHONY : stm32l4xx_it.c.i
 
 stm32l4xx_it.s: stm32l4xx_it.c.s
@@ -475,7 +475,7 @@ stm32l4xx_it.s: stm32l4xx_it.c.s
 
 # target to generate assembly for a file
 stm32l4xx_it.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/stm32l4xx_it.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/stm32l4xx_it.c.s
 .PHONY : stm32l4xx_it.c.s
 
 sx1280/2G4.obj: sx1280/2G4.c.obj
@@ -484,7 +484,7 @@ sx1280/2G4.obj: sx1280/2G4.c.obj
 
 # target to build an object file
 sx1280/2G4.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/2G4.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/2G4.c.obj
 .PHONY : sx1280/2G4.c.obj
 
 sx1280/2G4.i: sx1280/2G4.c.i
@@ -493,7 +493,7 @@ sx1280/2G4.i: sx1280/2G4.c.i
 
 # target to preprocess a source file
 sx1280/2G4.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/2G4.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/2G4.c.i
 .PHONY : sx1280/2G4.c.i
 
 sx1280/2G4.s: sx1280/2G4.c.s
@@ -502,7 +502,7 @@ sx1280/2G4.s: sx1280/2G4.c.s
 
 # target to generate assembly for a file
 sx1280/2G4.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/2G4.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/2G4.c.s
 .PHONY : sx1280/2G4.c.s
 
 sx1280/sx1280-hal.obj: sx1280/sx1280-hal.c.obj
@@ -511,7 +511,7 @@ sx1280/sx1280-hal.obj: sx1280/sx1280-hal.c.obj
 
 # target to build an object file
 sx1280/sx1280-hal.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/sx1280-hal.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/sx1280-hal.c.obj
 .PHONY : sx1280/sx1280-hal.c.obj
 
 sx1280/sx1280-hal.i: sx1280/sx1280-hal.c.i
@@ -520,7 +520,7 @@ sx1280/sx1280-hal.i: sx1280/sx1280-hal.c.i
 
 # target to preprocess a source file
 sx1280/sx1280-hal.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/sx1280-hal.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/sx1280-hal.c.i
 .PHONY : sx1280/sx1280-hal.c.i
 
 sx1280/sx1280-hal.s: sx1280/sx1280-hal.c.s
@@ -529,7 +529,7 @@ sx1280/sx1280-hal.s: sx1280/sx1280-hal.c.s
 
 # target to generate assembly for a file
 sx1280/sx1280-hal.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/sx1280-hal.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/sx1280-hal.c.s
 .PHONY : sx1280/sx1280-hal.c.s
 
 sx1280/sx1280.obj: sx1280/sx1280.c.obj
@@ -538,7 +538,7 @@ sx1280/sx1280.obj: sx1280/sx1280.c.obj
 
 # target to build an object file
 sx1280/sx1280.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/sx1280.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/sx1280.c.obj
 .PHONY : sx1280/sx1280.c.obj
 
 sx1280/sx1280.i: sx1280/sx1280.c.i
@@ -547,7 +547,7 @@ sx1280/sx1280.i: sx1280/sx1280.c.i
 
 # target to preprocess a source file
 sx1280/sx1280.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/sx1280.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/sx1280.c.i
 .PHONY : sx1280/sx1280.c.i
 
 sx1280/sx1280.s: sx1280/sx1280.c.s
@@ -556,35 +556,8 @@ sx1280/sx1280.s: sx1280/sx1280.c.s
 
 # target to generate assembly for a file
 sx1280/sx1280.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/sx1280.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sx1280/sx1280.c.s
 .PHONY : sx1280/sx1280.c.s
-
-sys.obj: sys.c.obj
-
-.PHONY : sys.obj
-
-# target to build an object file
-sys.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sys.c.obj
-.PHONY : sys.c.obj
-
-sys.i: sys.c.i
-
-.PHONY : sys.i
-
-# target to preprocess a source file
-sys.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sys.c.i
-.PHONY : sys.c.i
-
-sys.s: sys.c.s
-
-.PHONY : sys.s
-
-# target to generate assembly for a file
-sys.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/sys.c.s
-.PHONY : sys.c.s
 
 system_stm32l4xx.obj: system_stm32l4xx.c.obj
 
@@ -592,7 +565,7 @@ system_stm32l4xx.obj: system_stm32l4xx.c.obj
 
 # target to build an object file
 system_stm32l4xx.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/system_stm32l4xx.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/system_stm32l4xx.c.obj
 .PHONY : system_stm32l4xx.c.obj
 
 system_stm32l4xx.i: system_stm32l4xx.c.i
@@ -601,7 +574,7 @@ system_stm32l4xx.i: system_stm32l4xx.c.i
 
 # target to preprocess a source file
 system_stm32l4xx.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/system_stm32l4xx.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/system_stm32l4xx.c.i
 .PHONY : system_stm32l4xx.c.i
 
 system_stm32l4xx.s: system_stm32l4xx.c.s
@@ -610,7 +583,7 @@ system_stm32l4xx.s: system_stm32l4xx.c.s
 
 # target to generate assembly for a file
 system_stm32l4xx.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/system_stm32l4xx.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/system_stm32l4xx.c.s
 .PHONY : system_stm32l4xx.c.s
 
 usart.obj: usart.c.obj
@@ -619,7 +592,7 @@ usart.obj: usart.c.obj
 
 # target to build an object file
 usart.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/usart.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/usart.c.obj
 .PHONY : usart.c.obj
 
 usart.i: usart.c.i
@@ -628,7 +601,7 @@ usart.i: usart.c.i
 
 # target to preprocess a source file
 usart.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/usart.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/usart.c.i
 .PHONY : usart.c.i
 
 usart.s: usart.c.s
@@ -637,7 +610,7 @@ usart.s: usart.c.s
 
 # target to generate assembly for a file
 usart.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/usart.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/usart.c.s
 .PHONY : usart.c.s
 
 utilities.obj: utilities.c.obj
@@ -646,7 +619,7 @@ utilities.obj: utilities.c.obj
 
 # target to build an object file
 utilities.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/utilities.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/utilities.c.obj
 .PHONY : utilities.c.obj
 
 utilities.i: utilities.c.i
@@ -655,7 +628,7 @@ utilities.i: utilities.c.i
 
 # target to preprocess a source file
 utilities.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/utilities.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/utilities.c.i
 .PHONY : utilities.c.i
 
 utilities.s: utilities.c.s
@@ -664,7 +637,7 @@ utilities.s: utilities.c.s
 
 # target to generate assembly for a file
 utilities.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/utilities.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/utilities.c.s
 .PHONY : utilities.c.s
 
 # Help Target
@@ -723,9 +696,6 @@ help:
 	@echo ... sx1280/sx1280.obj
 	@echo ... sx1280/sx1280.i
 	@echo ... sx1280/sx1280.s
-	@echo ... sys.obj
-	@echo ... sys.i
-	@echo ... sys.s
 	@echo ... system_stm32l4xx.obj
 	@echo ... system_stm32l4xx.i
 	@echo ... system_stm32l4xx.s
@@ -746,6 +716,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d E:\code\L20\L20_1280\vsc_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

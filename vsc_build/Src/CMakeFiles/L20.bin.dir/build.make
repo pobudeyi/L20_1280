@@ -42,10 +42,10 @@ RM = "C:\Program Files\CMake1\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\L20\sx1280Basic\sx1280Basic_s
+CMAKE_SOURCE_DIR = E:\code\L20\L20_1280
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\L20\sx1280Basic\sx1280Basic_s\vsc_build
+CMAKE_BINARY_DIR = E:\code\L20\L20_1280\vsc_build
 
 # Utility rule file for L20.bin.
 
@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = E:\L20\sx1280Basic\sx1280Basic_s\vsc_build
 include Src/CMakeFiles/L20.bin.dir/progress.make
 
 Src/CMakeFiles/L20.bin: Src/L20
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-objcopy.exe -Obinary L20 L20.bin
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-objcopy.exe -Obinary L20 L20.bin
 
 L20.bin: Src/CMakeFiles/L20.bin
 L20.bin: Src/CMakeFiles/L20.bin.dir/build.make
@@ -66,10 +66,10 @@ Src/CMakeFiles/L20.bin.dir/build: L20.bin
 .PHONY : Src/CMakeFiles/L20.bin.dir/build
 
 Src/CMakeFiles/L20.bin.dir/clean:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Src && $(CMAKE_COMMAND) -P CMakeFiles\L20.bin.dir\cmake_clean.cmake
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && $(CMAKE_COMMAND) -P CMakeFiles\L20.bin.dir\cmake_clean.cmake
 .PHONY : Src/CMakeFiles/L20.bin.dir/clean
 
 Src/CMakeFiles/L20.bin.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\L20\sx1280Basic\sx1280Basic_s E:\L20\sx1280Basic\sx1280Basic_s\Src E:\L20\sx1280Basic\sx1280Basic_s\vsc_build E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Src E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Src\CMakeFiles\L20.bin.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\code\L20\L20_1280 E:\code\L20\L20_1280\Src E:\code\L20\L20_1280\vsc_build E:\code\L20\L20_1280\vsc_build\Src E:\code\L20\L20_1280\vsc_build\Src\CMakeFiles\L20.bin.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : Src/CMakeFiles/L20.bin.dir/depend
 

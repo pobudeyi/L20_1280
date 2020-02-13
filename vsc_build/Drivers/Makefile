@@ -47,10 +47,10 @@ RM = "C:\Program Files\CMake1\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\L20\sx1280Basic\sx1280Basic_s
+CMAKE_SOURCE_DIR = E:\code\L20\L20_1280
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\L20\sx1280Basic\sx1280Basic_s\vsc_build
+CMAKE_BINARY_DIR = E:\code\L20\L20_1280\vsc_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(CMAKE_COMMAND) -E cmake_progress_start E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\Drivers\CMakeFiles\progress.marks
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Drivers/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\L20\sx1280Basic\sx1280Basic_s\vsc_build\CMakeFiles 0
+	cd /d E:\code\L20\L20_1280\vsc_build && $(CMAKE_COMMAND) -E cmake_progress_start E:\code\L20\L20_1280\vsc_build\CMakeFiles E:\code\L20\L20_1280\vsc_build\Drivers\CMakeFiles\progress.marks
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Drivers/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\code\L20\L20_1280\vsc_build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Drivers/clean
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Drivers/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +96,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Drivers/preinstall
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Drivers/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Drivers/preinstall
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Drivers/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d E:\code\L20\L20_1280\vsc_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Drivers/CMakeFiles/driver.dir/rule:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Drivers/CMakeFiles/driver.dir/rule
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f CMakeFiles\Makefile2 Drivers/CMakeFiles/driver.dir/rule
 .PHONY : Drivers/CMakeFiles/driver.dir/rule
 
 # Convenience name for target.
@@ -121,7 +121,7 @@ driver: Drivers/CMakeFiles/driver.dir/rule
 
 # fast build rule for target.
 driver/fast:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/build
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/build
 .PHONY : driver/fast
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
@@ -130,7 +130,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i
@@ -139,7 +139,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s
@@ -148,7 +148,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
@@ -157,7 +157,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.obj: STM32L4xx_HAL_Driver/Src/stm3
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i
@@ -166,7 +166,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.i: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.s
@@ -175,7 +175,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.s: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
@@ -184,7 +184,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.obj: STM32L4xx_HAL_Driver/Src/stm32l4
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i
@@ -193,7 +193,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.i: STM32L4xx_HAL_Driver/Src/stm32l4xx
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.s
@@ -202,7 +202,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.s: STM32L4xx_HAL_Driver/Src/stm32l4xx
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
@@ -211,7 +211,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.obj: STM32L4xx_HAL_Driver/Src/stm3
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i
@@ -220,7 +220,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.i: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.s
@@ -229,7 +229,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.s: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
@@ -238,7 +238,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.obj: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i
@@ -247,7 +247,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.i: STM32L4xx_HAL_Driver/Src/stm32l4x
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.s
@@ -256,7 +256,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.s: STM32L4xx_HAL_Driver/Src/stm32l4x
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
@@ -265,7 +265,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.obj: STM32L4xx_HAL_Driver/Src/stm32
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i
@@ -274,7 +274,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.i: STM32L4xx_HAL_Driver/Src/stm32l4
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.s
@@ -283,7 +283,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.s: STM32L4xx_HAL_Driver/Src/stm32l4
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
@@ -292,7 +292,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.obj: STM32L4xx_HAL_Driver/Src/st
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i
@@ -301,7 +301,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.i: STM32L4xx_HAL_Driver/Src/stm3
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.s
@@ -310,7 +310,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.s: STM32L4xx_HAL_Driver/Src/stm3
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
@@ -319,7 +319,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.obj: STM32L4xx_HAL_Driver/S
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i
@@ -328,7 +328,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.i: STM32L4xx_HAL_Driver/Src
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.s
@@ -337,7 +337,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.s: STM32L4xx_HAL_Driver/Src
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
@@ -346,7 +346,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.obj: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i
@@ -355,7 +355,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.i: STM32L4xx_HAL_Driver/Src/stm32l4x
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.s
@@ -364,7 +364,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.s: STM32L4xx_HAL_Driver/Src/stm32l4x
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
@@ -373,7 +373,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.obj: STM32L4xx_HAL_Driver/Src/stm32l4
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i
@@ -382,7 +382,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.i: STM32L4xx_HAL_Driver/Src/stm32l4xx
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.s
@@ -391,7 +391,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.s: STM32L4xx_HAL_Driver/Src/stm32l4xx
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
@@ -400,7 +400,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.obj: STM32L4xx_HAL_Driver/Src/stm3
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i
@@ -409,7 +409,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.i: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.s
@@ -418,7 +418,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.s: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
@@ -427,7 +427,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.obj: STM32L4xx_HAL_Driver/Src/stm32l4
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i
@@ -436,7 +436,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.i: STM32L4xx_HAL_Driver/Src/stm32l4xx
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.s
@@ -445,7 +445,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.s: STM32L4xx_HAL_Driver/Src/stm32l4xx
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
@@ -454,7 +454,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.obj: STM32L4xx_HAL_Driver/Src/stm3
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i
@@ -463,7 +463,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.i: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.s
@@ -472,7 +472,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.s: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
@@ -481,7 +481,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.obj: STM32L4xx_HAL_Driver/Src/stm32l4
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i
@@ -490,7 +490,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.i: STM32L4xx_HAL_Driver/Src/stm32l4xx
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.s
@@ -499,7 +499,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.s: STM32L4xx_HAL_Driver/Src/stm32l4xx
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
@@ -508,7 +508,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.obj: STM32L4xx_HAL_Driver/Src/stm3
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i
@@ -517,7 +517,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.i: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.s
@@ -526,7 +526,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.s: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
@@ -535,7 +535,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.obj: STM32L4xx_HAL_Driver/Src/stm32l4
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.i
@@ -544,7 +544,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.i: STM32L4xx_HAL_Driver/Src/stm32l4xx
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.s
@@ -553,7 +553,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.s: STM32L4xx_HAL_Driver/Src/stm32l4xx
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj
@@ -562,7 +562,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.obj: STM32L4xx_HAL_Driver/Src/stm3
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.i
@@ -571,7 +571,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.i: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.s
@@ -580,7 +580,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.s: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
@@ -589,7 +589,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.obj: STM32L4xx_HAL_Driver/Src/stm32l4
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.i
@@ -598,7 +598,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.i: STM32L4xx_HAL_Driver/Src/stm32l4xx
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.s
@@ -607,7 +607,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.s: STM32L4xx_HAL_Driver/Src/stm32l4xx
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
@@ -616,7 +616,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.obj: STM32L4xx_HAL_Driver/Src/stm3
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.i
@@ -625,7 +625,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.i: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s
@@ -634,7 +634,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.s: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
@@ -643,7 +643,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.obj: STM32L4xx_HAL_Driver/Src/stm32l
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i
@@ -652,7 +652,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.i: STM32L4xx_HAL_Driver/Src/stm32l4x
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s
@@ -661,7 +661,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.s: STM32L4xx_HAL_Driver/Src/stm32l4x
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.obj: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
@@ -670,7 +670,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.obj: STM32L4xx_HAL_Driver/Src/stm
 
 # target to build an object file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.i: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i
@@ -679,7 +679,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.i: STM32L4xx_HAL_Driver/Src/stm32
 
 # target to preprocess a source file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i
 
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.s: STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s
@@ -688,7 +688,7 @@ STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.s: STM32L4xx_HAL_Driver/Src/stm32
 
 # target to generate assembly for a file
 STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s
 .PHONY : STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s
 
 __/startup_stm32l433xx.obj: __/startup_stm32l433xx.s.obj
@@ -697,7 +697,7 @@ __/startup_stm32l433xx.obj: __/startup_stm32l433xx.s.obj
 
 # target to build an object file
 __/startup_stm32l433xx.s.obj:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/__/startup_stm32l433xx.s.obj
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Drivers\CMakeFiles\driver.dir\build.make Drivers/CMakeFiles/driver.dir/__/startup_stm32l433xx.s.obj
 .PHONY : __/startup_stm32l433xx.s.obj
 
 # Help Target
@@ -784,6 +784,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\L20\sx1280Basic\sx1280Basic_s\vsc_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d E:\code\L20\L20_1280\vsc_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

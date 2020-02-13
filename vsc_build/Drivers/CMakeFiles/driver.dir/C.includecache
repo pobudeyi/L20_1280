@@ -776,87 +776,87 @@ stm32l4xx_hal_def.h
 stm32l4xx_hal_def.h
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
 stm32l4xx_hal.h
-E:/L20/sx1280Basic/sx1280Basic_s/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
+E:/code/L20/L20_1280/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.h
 

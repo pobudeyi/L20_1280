@@ -1,4 +1,4 @@
-# Install script for directory: E:/L20/sx1280Basic/sx1280Basic_s/Middlewares
+# Install script for directory: E:/code/L20/L20_1280/Middlewares
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
