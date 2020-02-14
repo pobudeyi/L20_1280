@@ -154,6 +154,114 @@ L20.hex/fast:
 	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.hex.dir\build.make Src/CMakeFiles/L20.hex.dir/build
 .PHONY : L20.hex/fast
 
+BMA2x2/bma2x2.obj: BMA2x2/bma2x2.c.obj
+
+.PHONY : BMA2x2/bma2x2.obj
+
+# target to build an object file
+BMA2x2/bma2x2.c.obj:
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/BMA2x2/bma2x2.c.obj
+.PHONY : BMA2x2/bma2x2.c.obj
+
+BMA2x2/bma2x2.i: BMA2x2/bma2x2.c.i
+
+.PHONY : BMA2x2/bma2x2.i
+
+# target to preprocess a source file
+BMA2x2/bma2x2.c.i:
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/BMA2x2/bma2x2.c.i
+.PHONY : BMA2x2/bma2x2.c.i
+
+BMA2x2/bma2x2.s: BMA2x2/bma2x2.c.s
+
+.PHONY : BMA2x2/bma2x2.s
+
+# target to generate assembly for a file
+BMA2x2/bma2x2.c.s:
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/BMA2x2/bma2x2.c.s
+.PHONY : BMA2x2/bma2x2.c.s
+
+BMA2x2/bma2x2_hal.obj: BMA2x2/bma2x2_hal.c.obj
+
+.PHONY : BMA2x2/bma2x2_hal.obj
+
+# target to build an object file
+BMA2x2/bma2x2_hal.c.obj:
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.obj
+.PHONY : BMA2x2/bma2x2_hal.c.obj
+
+BMA2x2/bma2x2_hal.i: BMA2x2/bma2x2_hal.c.i
+
+.PHONY : BMA2x2/bma2x2_hal.i
+
+# target to preprocess a source file
+BMA2x2/bma2x2_hal.c.i:
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.i
+.PHONY : BMA2x2/bma2x2_hal.c.i
+
+BMA2x2/bma2x2_hal.s: BMA2x2/bma2x2_hal.c.s
+
+.PHONY : BMA2x2/bma2x2_hal.s
+
+# target to generate assembly for a file
+BMA2x2/bma2x2_hal.c.s:
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.s
+.PHONY : BMA2x2/bma2x2_hal.c.s
+
+BMA2x2/bma2x2_support.obj: BMA2x2/bma2x2_support.c.obj
+
+.PHONY : BMA2x2/bma2x2_support.obj
+
+# target to build an object file
+BMA2x2/bma2x2_support.c.obj:
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.obj
+.PHONY : BMA2x2/bma2x2_support.c.obj
+
+BMA2x2/bma2x2_support.i: BMA2x2/bma2x2_support.c.i
+
+.PHONY : BMA2x2/bma2x2_support.i
+
+# target to preprocess a source file
+BMA2x2/bma2x2_support.c.i:
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.i
+.PHONY : BMA2x2/bma2x2_support.c.i
+
+BMA2x2/bma2x2_support.s: BMA2x2/bma2x2_support.c.s
+
+.PHONY : BMA2x2/bma2x2_support.s
+
+# target to generate assembly for a file
+BMA2x2/bma2x2_support.c.s:
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.s
+.PHONY : BMA2x2/bma2x2_support.c.s
+
+BMA2x2/delay.obj: BMA2x2/delay.c.obj
+
+.PHONY : BMA2x2/delay.obj
+
+# target to build an object file
+BMA2x2/delay.c.obj:
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/BMA2x2/delay.c.obj
+.PHONY : BMA2x2/delay.c.obj
+
+BMA2x2/delay.i: BMA2x2/delay.c.i
+
+.PHONY : BMA2x2/delay.i
+
+# target to preprocess a source file
+BMA2x2/delay.c.i:
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/BMA2x2/delay.c.i
+.PHONY : BMA2x2/delay.c.i
+
+BMA2x2/delay.s: BMA2x2/delay.c.s
+
+.PHONY : BMA2x2/delay.s
+
+# target to generate assembly for a file
+BMA2x2/delay.c.s:
+	cd /d E:\code\L20\L20_1280\vsc_build && $(MAKE) -f Src\CMakeFiles\L20.dir\build.make Src/CMakeFiles/L20.dir/BMA2x2/delay.c.s
+.PHONY : BMA2x2/delay.c.s
+
 QMA6981.obj: QMA6981.c.obj
 
 .PHONY : QMA6981.obj
@@ -651,6 +759,18 @@ help:
 	@echo ... L20.hex
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BMA2x2/bma2x2.obj
+	@echo ... BMA2x2/bma2x2.i
+	@echo ... BMA2x2/bma2x2.s
+	@echo ... BMA2x2/bma2x2_hal.obj
+	@echo ... BMA2x2/bma2x2_hal.i
+	@echo ... BMA2x2/bma2x2_hal.s
+	@echo ... BMA2x2/bma2x2_support.obj
+	@echo ... BMA2x2/bma2x2_support.i
+	@echo ... BMA2x2/bma2x2_support.s
+	@echo ... BMA2x2/delay.obj
+	@echo ... BMA2x2/delay.i
+	@echo ... BMA2x2/delay.s
 	@echo ... QMA6981.obj
 	@echo ... QMA6981.i
 	@echo ... QMA6981.s

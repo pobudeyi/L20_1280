@@ -225,6 +225,8 @@ void qma6981_task(void const * argument)
   uint16_t a,b;
   float tmp_vaule;
   //QMA6981Init();
+  bma2x2_config();
+  osDelay(10);
   for(;;)
   {
     osDelay(1000);

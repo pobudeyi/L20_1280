@@ -4,6 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "E:/code/L20/L20_1280/Src/BMA2x2/bma2x2.c" "E:/code/L20/L20_1280/vsc_build/Src/CMakeFiles/L20.dir/BMA2x2/bma2x2.c.obj"
+  "E:/code/L20/L20_1280/Src/BMA2x2/bma2x2_hal.c" "E:/code/L20/L20_1280/vsc_build/Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.obj"
+  "E:/code/L20/L20_1280/Src/BMA2x2/bma2x2_support.c" "E:/code/L20/L20_1280/vsc_build/Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.obj"
+  "E:/code/L20/L20_1280/Src/BMA2x2/delay.c" "E:/code/L20/L20_1280/vsc_build/Src/CMakeFiles/L20.dir/BMA2x2/delay.c.obj"
   "E:/code/L20/L20_1280/Src/QMA6981.c" "E:/code/L20/L20_1280/vsc_build/Src/CMakeFiles/L20.dir/QMA6981.c.obj"
   "E:/code/L20/L20_1280/Src/at_cmd.c" "E:/code/L20/L20_1280/vsc_build/Src/CMakeFiles/L20.dir/at_cmd.c.obj"
   "E:/code/L20/L20_1280/Src/bsp_uart.c" "E:/code/L20/L20_1280/vsc_build/Src/CMakeFiles/L20.dir/bsp_uart.c.obj"
@@ -34,6 +38,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Src/sx1280"
+  "../Src/BMA2x2"
   "../Src/../inc"
   "../Src/../Drivers/CMSIS/Include"
   "../Src/../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"

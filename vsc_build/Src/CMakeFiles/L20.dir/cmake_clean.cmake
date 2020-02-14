@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/L20.dir/BMA2x2/bma2x2.c.obj"
+  "CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.obj"
+  "CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.obj"
+  "CMakeFiles/L20.dir/BMA2x2/delay.c.obj"
   "CMakeFiles/L20.dir/QMA6981.c.obj"
   "CMakeFiles/L20.dir/at_cmd.c.obj"
   "CMakeFiles/L20.dir/bsp_uart.c.obj"

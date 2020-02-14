@@ -27,13 +27,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 13,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 28,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
@@ -78,6 +78,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "E:/code/L20/L20_1280/Src/sx1280"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/code/L20/L20_1280/Src/BMA2x2"
 				},
 				{
 					"backtrace" : 2,
@@ -140,7 +144,11 @@
 				14,
 				15,
 				16,
-				17
+				17,
+				18,
+				19,
+				20,
+				21
 			]
 		}
 	],
@@ -199,17 +207,17 @@
 				14,
 				15,
 				16,
-				17
+				17,
+				18,
+				19,
+				20,
+				21
 			]
 		},
 		{
 			"name" : "Object Libraries",
 			"sourceIndexes" : 
 			[
-				18,
-				19,
-				20,
-				21,
 				22,
 				23,
 				24,
@@ -236,12 +244,40 @@
 				45,
 				46,
 				47,
-				48
+				48,
+				49,
+				50,
+				51,
+				52
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Src/BMA2x2/bma2x2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Src/BMA2x2/bma2x2_hal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Src/BMA2x2/bma2x2_support.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Src/BMA2x2/delay.c",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,

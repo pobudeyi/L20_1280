@@ -56,9 +56,61 @@ include Src/CMakeFiles/L20.dir/progress.make
 # Include the compile flags for this target's objects.
 include Src/CMakeFiles/L20.dir/flags.make
 
+Src/CMakeFiles/L20.dir/BMA2x2/bma2x2.c.obj: Src/CMakeFiles/L20.dir/flags.make
+Src/CMakeFiles/L20.dir/BMA2x2/bma2x2.c.obj: ../Src/BMA2x2/bma2x2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Src/CMakeFiles/L20.dir/BMA2x2/bma2x2.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\BMA2x2\bma2x2.c.obj   -c E:\code\L20\L20_1280\Src\BMA2x2\bma2x2.c
+
+Src/CMakeFiles/L20.dir/BMA2x2/bma2x2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/L20.dir/BMA2x2/bma2x2.c.i"
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Src\BMA2x2\bma2x2.c > CMakeFiles\L20.dir\BMA2x2\bma2x2.c.i
+
+Src/CMakeFiles/L20.dir/BMA2x2/bma2x2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/L20.dir/BMA2x2/bma2x2.c.s"
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Src\BMA2x2\bma2x2.c -o CMakeFiles\L20.dir\BMA2x2\bma2x2.c.s
+
+Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.obj: Src/CMakeFiles/L20.dir/flags.make
+Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.obj: ../Src/BMA2x2/bma2x2_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\BMA2x2\bma2x2_hal.c.obj   -c E:\code\L20\L20_1280\Src\BMA2x2\bma2x2_hal.c
+
+Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.i"
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Src\BMA2x2\bma2x2_hal.c > CMakeFiles\L20.dir\BMA2x2\bma2x2_hal.c.i
+
+Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.s"
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Src\BMA2x2\bma2x2_hal.c -o CMakeFiles\L20.dir\BMA2x2\bma2x2_hal.c.s
+
+Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.obj: Src/CMakeFiles/L20.dir/flags.make
+Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.obj: ../Src/BMA2x2/bma2x2_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\BMA2x2\bma2x2_support.c.obj   -c E:\code\L20\L20_1280\Src\BMA2x2\bma2x2_support.c
+
+Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.i"
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Src\BMA2x2\bma2x2_support.c > CMakeFiles\L20.dir\BMA2x2\bma2x2_support.c.i
+
+Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.s"
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Src\BMA2x2\bma2x2_support.c -o CMakeFiles\L20.dir\BMA2x2\bma2x2_support.c.s
+
+Src/CMakeFiles/L20.dir/BMA2x2/delay.c.obj: Src/CMakeFiles/L20.dir/flags.make
+Src/CMakeFiles/L20.dir/BMA2x2/delay.c.obj: ../Src/BMA2x2/delay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object Src/CMakeFiles/L20.dir/BMA2x2/delay.c.obj"
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\BMA2x2\delay.c.obj   -c E:\code\L20\L20_1280\Src\BMA2x2\delay.c
+
+Src/CMakeFiles/L20.dir/BMA2x2/delay.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/L20.dir/BMA2x2/delay.c.i"
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\L20\L20_1280\Src\BMA2x2\delay.c > CMakeFiles\L20.dir\BMA2x2\delay.c.i
+
+Src/CMakeFiles/L20.dir/BMA2x2/delay.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/L20.dir/BMA2x2/delay.c.s"
+	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\L20\L20_1280\Src\BMA2x2\delay.c -o CMakeFiles\L20.dir\BMA2x2\delay.c.s
+
 Src/CMakeFiles/L20.dir/QMA6981.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/QMA6981.c.obj: ../Src/QMA6981.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Src/CMakeFiles/L20.dir/QMA6981.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object Src/CMakeFiles/L20.dir/QMA6981.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\QMA6981.c.obj   -c E:\code\L20\L20_1280\Src\QMA6981.c
 
 Src/CMakeFiles/L20.dir/QMA6981.c.i: cmake_force
@@ -71,7 +123,7 @@ Src/CMakeFiles/L20.dir/QMA6981.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/at_cmd.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/at_cmd.c.obj: ../Src/at_cmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Src/CMakeFiles/L20.dir/at_cmd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object Src/CMakeFiles/L20.dir/at_cmd.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\at_cmd.c.obj   -c E:\code\L20\L20_1280\Src\at_cmd.c
 
 Src/CMakeFiles/L20.dir/at_cmd.c.i: cmake_force
@@ -84,7 +136,7 @@ Src/CMakeFiles/L20.dir/at_cmd.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/bsp_uart.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/bsp_uart.c.obj: ../Src/bsp_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object Src/CMakeFiles/L20.dir/bsp_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object Src/CMakeFiles/L20.dir/bsp_uart.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\bsp_uart.c.obj   -c E:\code\L20\L20_1280\Src\bsp_uart.c
 
 Src/CMakeFiles/L20.dir/bsp_uart.c.i: cmake_force
@@ -97,7 +149,7 @@ Src/CMakeFiles/L20.dir/bsp_uart.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/dma.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/dma.c.obj: ../Src/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object Src/CMakeFiles/L20.dir/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object Src/CMakeFiles/L20.dir/dma.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\dma.c.obj   -c E:\code\L20\L20_1280\Src\dma.c
 
 Src/CMakeFiles/L20.dir/dma.c.i: cmake_force
@@ -110,7 +162,7 @@ Src/CMakeFiles/L20.dir/dma.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/freertos.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/freertos.c.obj: ../Src/freertos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object Src/CMakeFiles/L20.dir/freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object Src/CMakeFiles/L20.dir/freertos.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\freertos.c.obj   -c E:\code\L20\L20_1280\Src\freertos.c
 
 Src/CMakeFiles/L20.dir/freertos.c.i: cmake_force
@@ -123,7 +175,7 @@ Src/CMakeFiles/L20.dir/freertos.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/gpio.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/gpio.c.obj: ../Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object Src/CMakeFiles/L20.dir/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object Src/CMakeFiles/L20.dir/gpio.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\gpio.c.obj   -c E:\code\L20\L20_1280\Src\gpio.c
 
 Src/CMakeFiles/L20.dir/gpio.c.i: cmake_force
@@ -136,7 +188,7 @@ Src/CMakeFiles/L20.dir/gpio.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/i2c.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/i2c.c.obj: ../Src/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object Src/CMakeFiles/L20.dir/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object Src/CMakeFiles/L20.dir/i2c.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\i2c.c.obj   -c E:\code\L20\L20_1280\Src\i2c.c
 
 Src/CMakeFiles/L20.dir/i2c.c.i: cmake_force
@@ -149,7 +201,7 @@ Src/CMakeFiles/L20.dir/i2c.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/main.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/main.c.obj: ../Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object Src/CMakeFiles/L20.dir/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object Src/CMakeFiles/L20.dir/main.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\main.c.obj   -c E:\code\L20\L20_1280\Src\main.c
 
 Src/CMakeFiles/L20.dir/main.c.i: cmake_force
@@ -162,7 +214,7 @@ Src/CMakeFiles/L20.dir/main.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/qst_sw_i2c.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/qst_sw_i2c.c.obj: ../Src/qst_sw_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object Src/CMakeFiles/L20.dir/qst_sw_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object Src/CMakeFiles/L20.dir/qst_sw_i2c.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\qst_sw_i2c.c.obj   -c E:\code\L20\L20_1280\Src\qst_sw_i2c.c
 
 Src/CMakeFiles/L20.dir/qst_sw_i2c.c.i: cmake_force
@@ -175,7 +227,7 @@ Src/CMakeFiles/L20.dir/qst_sw_i2c.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/spi.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/spi.c.obj: ../Src/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object Src/CMakeFiles/L20.dir/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object Src/CMakeFiles/L20.dir/spi.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\spi.c.obj   -c E:\code\L20\L20_1280\Src\spi.c
 
 Src/CMakeFiles/L20.dir/spi.c.i: cmake_force
@@ -188,7 +240,7 @@ Src/CMakeFiles/L20.dir/spi.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/stm32l4xx_hal_msp.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/stm32l4xx_hal_msp.c.obj: ../Src/stm32l4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object Src/CMakeFiles/L20.dir/stm32l4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object Src/CMakeFiles/L20.dir/stm32l4xx_hal_msp.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\stm32l4xx_hal_msp.c.obj   -c E:\code\L20\L20_1280\Src\stm32l4xx_hal_msp.c
 
 Src/CMakeFiles/L20.dir/stm32l4xx_hal_msp.c.i: cmake_force
@@ -201,7 +253,7 @@ Src/CMakeFiles/L20.dir/stm32l4xx_hal_msp.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/stm32l4xx_it.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/stm32l4xx_it.c.obj: ../Src/stm32l4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object Src/CMakeFiles/L20.dir/stm32l4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object Src/CMakeFiles/L20.dir/stm32l4xx_it.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\stm32l4xx_it.c.obj   -c E:\code\L20\L20_1280\Src\stm32l4xx_it.c
 
 Src/CMakeFiles/L20.dir/stm32l4xx_it.c.i: cmake_force
@@ -214,7 +266,7 @@ Src/CMakeFiles/L20.dir/stm32l4xx_it.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/sx1280/2G4.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/sx1280/2G4.c.obj: ../Src/sx1280/2G4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object Src/CMakeFiles/L20.dir/sx1280/2G4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object Src/CMakeFiles/L20.dir/sx1280/2G4.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\sx1280\2G4.c.obj   -c E:\code\L20\L20_1280\Src\sx1280\2G4.c
 
 Src/CMakeFiles/L20.dir/sx1280/2G4.c.i: cmake_force
@@ -227,7 +279,7 @@ Src/CMakeFiles/L20.dir/sx1280/2G4.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/sx1280/sx1280-hal.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/sx1280/sx1280-hal.c.obj: ../Src/sx1280/sx1280-hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object Src/CMakeFiles/L20.dir/sx1280/sx1280-hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object Src/CMakeFiles/L20.dir/sx1280/sx1280-hal.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\sx1280\sx1280-hal.c.obj   -c E:\code\L20\L20_1280\Src\sx1280\sx1280-hal.c
 
 Src/CMakeFiles/L20.dir/sx1280/sx1280-hal.c.i: cmake_force
@@ -240,7 +292,7 @@ Src/CMakeFiles/L20.dir/sx1280/sx1280-hal.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/sx1280/sx1280.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/sx1280/sx1280.c.obj: ../Src/sx1280/sx1280.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object Src/CMakeFiles/L20.dir/sx1280/sx1280.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object Src/CMakeFiles/L20.dir/sx1280/sx1280.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\sx1280\sx1280.c.obj   -c E:\code\L20\L20_1280\Src\sx1280\sx1280.c
 
 Src/CMakeFiles/L20.dir/sx1280/sx1280.c.i: cmake_force
@@ -253,7 +305,7 @@ Src/CMakeFiles/L20.dir/sx1280/sx1280.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/system_stm32l4xx.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/system_stm32l4xx.c.obj: ../Src/system_stm32l4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object Src/CMakeFiles/L20.dir/system_stm32l4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object Src/CMakeFiles/L20.dir/system_stm32l4xx.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\system_stm32l4xx.c.obj   -c E:\code\L20\L20_1280\Src\system_stm32l4xx.c
 
 Src/CMakeFiles/L20.dir/system_stm32l4xx.c.i: cmake_force
@@ -266,7 +318,7 @@ Src/CMakeFiles/L20.dir/system_stm32l4xx.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/usart.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/usart.c.obj: ../Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object Src/CMakeFiles/L20.dir/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object Src/CMakeFiles/L20.dir/usart.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\usart.c.obj   -c E:\code\L20\L20_1280\Src\usart.c
 
 Src/CMakeFiles/L20.dir/usart.c.i: cmake_force
@@ -279,7 +331,7 @@ Src/CMakeFiles/L20.dir/usart.c.s: cmake_force
 
 Src/CMakeFiles/L20.dir/utilities.c.obj: Src/CMakeFiles/L20.dir/flags.make
 Src/CMakeFiles/L20.dir/utilities.c.obj: ../Src/utilities.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object Src/CMakeFiles/L20.dir/utilities.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object Src/CMakeFiles/L20.dir/utilities.c.obj"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\L20.dir\utilities.c.obj   -c E:\code\L20\L20_1280\Src\utilities.c
 
 Src/CMakeFiles/L20.dir/utilities.c.i: cmake_force
@@ -292,6 +344,10 @@ Src/CMakeFiles/L20.dir/utilities.c.s: cmake_force
 
 # Object files for target L20
 L20_OBJECTS = \
+"CMakeFiles/L20.dir/BMA2x2/bma2x2.c.obj" \
+"CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.obj" \
+"CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.obj" \
+"CMakeFiles/L20.dir/BMA2x2/delay.c.obj" \
 "CMakeFiles/L20.dir/QMA6981.c.obj" \
 "CMakeFiles/L20.dir/at_cmd.c.obj" \
 "CMakeFiles/L20.dir/bsp_uart.c.obj" \
@@ -345,6 +401,10 @@ L20_EXTERNAL_OBJECTS = \
 "E:/code/L20/L20_1280/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" \
 "E:/code/L20/L20_1280/vsc_build/Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
 
+Src/L20: Src/CMakeFiles/L20.dir/BMA2x2/bma2x2.c.obj
+Src/L20: Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_hal.c.obj
+Src/L20: Src/CMakeFiles/L20.dir/BMA2x2/bma2x2_support.c.obj
+Src/L20: Src/CMakeFiles/L20.dir/BMA2x2/delay.c.obj
 Src/L20: Src/CMakeFiles/L20.dir/QMA6981.c.obj
 Src/L20: Src/CMakeFiles/L20.dir/at_cmd.c.obj
 Src/L20: Src/CMakeFiles/L20.dir/bsp_uart.c.obj
@@ -397,7 +457,7 @@ Src/L20: Middlewares/CMakeFiles/rtos.dir/Third_Party/FreeRTOS/Source/portable/GC
 Src/L20: Src/CMakeFiles/L20.dir/build.make
 Src/L20: Src/CMakeFiles/L20.dir/objects1.rsp
 Src/L20: Src/CMakeFiles/L20.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C executable L20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\code\L20\L20_1280\vsc_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable L20"
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\L20.dir\link.txt --verbose=$(VERBOSE)
 	cd /d E:\code\L20\L20_1280\vsc_build\Src && D:\software\gcc-arm-none-eabi-7-2017-q4-major-win32\bin\arm-none-eabi-size.exe L20
 

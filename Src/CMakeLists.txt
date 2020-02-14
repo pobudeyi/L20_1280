@@ -8,6 +8,7 @@ cmake_minimum_required(VERSION 3.6)
 file(GLOB ${PROJECT_NAME}_SOURCES
         "${CMAKE_CURRENT_LIST_DIR}/*.c"
         "${CMAKE_CURRENT_LIST_DIR}/sx1280/*.c"
+		"${CMAKE_CURRENT_LIST_DIR}/BMA2x2/*.c"
 )
 
 add_executable(${PROJECT_NAME}
@@ -28,6 +29,7 @@ add_executable(${PROJECT_NAME}
 target_include_directories(
     ${PROJECT_NAME} PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/sx1280
+	${CMAKE_CURRENT_SOURCE_DIR}/BMA2x2
     ${CMAKE_CURRENT_SOURCE_DIR}/../inc
     ${CMAKE_CURRENT_SOURCE_DIR}/../Drivers/CMSIS/Include
     ${CMAKE_CURRENT_SOURCE_DIR}/../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
